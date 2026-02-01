@@ -1,5 +1,5 @@
 const express = require("express");
-const { createWorker,workerLogin } = require("../../../controllers/Admin/worker-Controller/workerController");
+const { createWorker } = require("../../../controllers/Admin/worker-Controller/workerController");
 const {loginUser}=require('../../../controllers/user/Authentification/userController')
 const router = express.Router();
 

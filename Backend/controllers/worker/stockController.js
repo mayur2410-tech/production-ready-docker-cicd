@@ -180,7 +180,7 @@ const recordConsumption = async (req, res) => {
       });
     }
 
-    const previousQuantity = stockItem.currentQuantity;
+    // const previousQuantity = stockItem.currentQuantity;
     stockItem.currentQuantity -= quantityUsed;
     const currentQuantity = stockItem.currentQuantity;
     const reorderLevel = stockItem.reorderLevel;

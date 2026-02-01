@@ -8,7 +8,7 @@ dotenv.config();
 
 const connectDB = async () => {
     try {
-      const conn = await mongoose.connect(process.env.MONGODB_URL, {
+     await mongoose.connect(process.env.MONGODB_URL, {
         useNewUrlParser: true,
       });
       console.log(`MongoDB Connected: {conn.connection.host}`);

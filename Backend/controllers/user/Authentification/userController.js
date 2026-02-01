@@ -4,7 +4,7 @@ const Worker =require('../../../models/Worker/workerModel')
 const bcrypt = require('bcryptjs');  // Required for comparing hashed passwords
 const jwt = require('jsonwebtoken');
 const nodemailer = require("nodemailer");
-const user = require('../../../models/user');
+// const user = require('../../../models/user');
 
 const registerUser = async (req, res) => {
   const { name, email, phoneNumber, buildingName, roomNumber,bagNumber, password, confirmPassword } = req.body;

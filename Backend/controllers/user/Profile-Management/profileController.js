@@ -11,7 +11,7 @@ const getUserProfile = async (req,res) => {
         res.json(user);
 
     } catch(error){
-        res.status(500).json({message:"Server Error"});
+        res.status(500).json({message:"Server Error",error:error.message});
     }
 };
 

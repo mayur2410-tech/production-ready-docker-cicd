@@ -23,7 +23,7 @@ const authenticateUser = (req, res, next) => {
         next();
     } catch (error) {
         // If token is invalid or expired, send an error response
-        res.status(401).json({ message: "Invalid or expired token" });
+        res.status(401).json({ message: "Invalid or expired token" ,error:error.message});
     }
 };
 

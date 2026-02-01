@@ -1,6 +1,6 @@
-const mongoose = require("mongoose");
+// const mongoose = require("mongoose");
 const Order = require("../../../models/userOrder");
-const User = require("../../../models/user");
+// const User = require("../../../models/user");
 const twilio =require('twilio');
 
 const accountSid = process.env.TWILIO_ACCOUNT_SID;
