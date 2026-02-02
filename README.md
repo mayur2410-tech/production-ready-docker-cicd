@@ -29,6 +29,11 @@
 </div>
 
 ---
+## 📌 Wrokflow Diagram
+
+<img width="896" height="544" alt="diagram-export-1-29-2026-11_38_23-AM" src="https://github.com/mayur2410-tech/production-ready-docker-cicd/blob/main/ci-cd-workflow.png?raw=true" />
+
+---
 
 ## 📌 Project Overview
 
