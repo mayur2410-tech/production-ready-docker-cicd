@@ -156,5 +156,5 @@ jobs:
 
     - name: Health Check
       run: |
-        curl -f http://${{ secrets.SSH_HOST }}:3000/health
+        curl -f http://${{ secrets.SSH_HOST }}:3000/
 
