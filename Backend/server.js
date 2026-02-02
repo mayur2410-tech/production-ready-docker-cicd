@@ -46,7 +46,7 @@ io.on('connection', (socket) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Server is ready');
+  res.send('Server is ready on EC2');
 });
 
 // Middleware
